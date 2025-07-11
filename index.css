@@ -223,6 +223,7 @@ box-sizing: border-box;
 
 .my-protfolio{
     background-color: #ffeaf1;
+    padding-bottom: 0;
    /* background-color: #f9f9f9; */
 }
 .size{
@@ -235,11 +236,36 @@ box-sizing: border-box;
 ul li {
   padding: 5px 10px;
 }
-
 ul li:hover,
 ul li.active {
   background-color: #f0f0f0;
   border-radius: 6px;
   color: #99033d;
   cursor: pointer;
+}
+.disney{
+width: 50px;
+height: 50px;
+border-radius: 250px;
+}
+.thumb{
+ background-color: white;
+}
+.testimonial-area{
+  background-color: #ebebeb98;
+ 
+}
+.single-testimonial {
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.single-testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.disney {
+  border-radius: 50%;
+  object-fit: cover;
 }
